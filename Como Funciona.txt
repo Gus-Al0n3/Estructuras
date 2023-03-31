@@ -1,0 +1,14 @@
+La búsqueda binaria es un algoritmo de búsqueda eficiente que funciona en arreglos ordenados. 
+Consiste en comparar el valor buscado con el elemento en el medio del arreglo y determinar si el valor 
+se encuentra en la mitad superior o inferior del arreglo. De esta forma, 
+el proceso se repite en la mitad correspondiente hasta que se encuentra el valor buscado
+ o se determina que no se encuentra en el arreglo.
+
+En el código, se declara un arreglo de enteros llamado array que se ordena utilizando la función qsort()
+ de C. Luego, se solicita al usuario que ingrese un número a buscar en el arreglo. 
+ Si el número se encuentra en el arreglo, se imprime su posición en el arreglo. 
+ Si el número no se encuentra en el arreglo, se imprime un mensaje indicándolo.
+
+Además, el programa cuenta con un menú con colores que utiliza la biblioteca termios.h de C
+ para establecer el color de la consola y la función getch() para leer una tecla sin necesidad 
+ de presionar Enter.
